@@ -12,7 +12,7 @@ class GlorfSourceTest extends TestCase
 {
     public function setUp(): void
     {
-        parent::setUp(); 
+        parent::setUp();
     }
 
     public function testGetCollectionToImport()

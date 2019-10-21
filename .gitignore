@@ -31,6 +31,8 @@
 /web/bundles/
 /web/uploads/
 
+.phpunit.result.cache
+
 # Build data
 /build/
 
