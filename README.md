@@ -1,75 +1,49 @@
 # VideoShare
 
-One Paragraph of project description goes here
+A tool to import Videos from different providers through a console command 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
-  * PHP 7.1.3 or higher;
+  * PHP 7.2 or higher;
   * and the [usual Symfony application requirements][1].
 
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Steps to install application
 
 ```
-Give the example
+$ git clone https://github.com/welpons/VideoShare.git
+$ cd VideoShare
+$ composer install
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+```bash
+php vendor/bin/phpunit
+```
 
 ### Usage
 
 ```bash
 $ cd VideoShare/
-$ videoshare:import <path-to-file-to-import>
+$ php app.php import <provider-name>
 ```
 
+Example:
 
-
-### And coding style tests
-
-Explain what these tests test and why
-
+```bash
+$ php app.php import glorf
 ```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Felix Pons** - 
+* **Felix Pons** 
 
 
 ## License

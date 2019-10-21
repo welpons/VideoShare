@@ -2,39 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34826a00-594f-4a84-88b9-86055c758a08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feed-exports/flub.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feed-exports/glorf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Import/Command/ImporterCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Import/DTO/ResponseDTO.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Import/Service/ImporterService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Import/Service/SourceFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Import/Validation/ProviderValidator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Import/Validation/ValidatorInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/EntityInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Model/Provider/Provider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Model/Provider/ProviderRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Model/Tag/Tag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Model/Video/Video.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Model/Video/VideoCollection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Model/Video/VideoRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Infrastructure/Persistence/Cassandra/CassandraProviderRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Infrastructure/Persistence/MySQL/MySQLProviderRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Infrastructure/Persistence/MySQL/MySQLVideoRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Infrastructure/Service/Parser/ParserInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Infrastructure/Service/Parser/YamlParser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Infrastructure/Service/Source/FlubSource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Infrastructure/Service/Source/GlorfSource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Infrastructure/Service/Source/SourceInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Infrastructure/Service/Transfer/FTPTransfer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Infrastructure/Service/Transfer/LocalTransfer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Infrastructure/Service/Transfer/TransferInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Domain/Model/Video/VideoTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Infrastructure/Validation/MemoryProviderRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Infrastructure/Validation/ProviderValidatorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SUMMARY" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Infrastructure/Service/Source/GlorfSourceTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Import/Service/ImporterService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Import/Service/ImporterService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Service/Source/GlorfSource.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Infrastructure/Service/Source/GlorfSource.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,25 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Application/Import/Command/ImporterCommand.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="66" column="28" lean-forward="true" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
-              <folding>
-                <element signature="e#50#101#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Application/Import/Service/ImporterService.php">
+        <entry file="file://$PROJECT_DIR$/tests/Infrastructure/Service/Source/GlorfSourceTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="82" column="149" selection-start-line="82" selection-start-column="149" selection-end-line="82" selection-end-column="149" />
+            <state relative-caret-position="238">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
               <folding>
-                <element signature="e#50#107#0#PHP" expanded="true" />
+                <element signature="e#56#99#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Infrastructure/Service/Source/GlorfSource.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="857">
-              <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+            <state relative-caret-position="412">
+              <caret line="41" column="41" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="41" />
               <folding>
                 <element signature="e#54#87#0#PHP" expanded="true" />
               </folding>
@@ -109,9 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/feed-exports/flub.yaml" />
         <option value="$PROJECT_DIR$/feed-exports/glorf.json" />
         <option value="$PROJECT_DIR$/src/Application/CommandImporter.php" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
@@ -158,8 +117,11 @@
         <option value="$PROJECT_DIR$/src/Infrastructure/Service/Transfer/LocalTransfer.php" />
         <option value="$PROJECT_DIR$/src/Infrastructure/Service/Source/SourceInterface.php" />
         <option value="$PROJECT_DIR$/src/Infrastructure/Service/Source/FlubSource.php" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Infrastructure/Service/Source/GlorfSource.php" />
         <option value="$PROJECT_DIR$/src/Application/Import/Service/ImporterService.php" />
+        <option value="$PROJECT_DIR$/tests/Infrastructure/Service/Source/GlorfSourceTest.php" />
+        <option value="$PROJECT_DIR$/SUMMARY" />
       </list>
     </option>
   </component>
@@ -199,144 +161,7 @@
             <path>
               <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
               <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Import" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Import" type="462c0819:PsiDirectoryNode" />
-              <item name="Command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Import" type="462c0819:PsiDirectoryNode" />
-              <item name="DTO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Import" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Import" type="462c0819:PsiDirectoryNode" />
-              <item name="Validation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-              <item name="Provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-              <item name="Video" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Infrastructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="Persistence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="Persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="Cassandra" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="Persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="MySQL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-              <item name="Source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Infrastructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoShare" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="Validation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VideoShare" type="b2602c69:ProjectViewProjectNode" />
@@ -393,12 +218,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571492460925</updated>
-      <workItem from="1571492463447" duration="31133000" />
+      <workItem from="1571492463447" duration="35532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31133000" />
+    <option name="totallyTimeSpent" value="35532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="974" extended-state="6" />
@@ -445,16 +270,6 @@
         <state split_layout="SPLIT">
           <first_editor>
             <caret column="29" selection-start-column="29" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="676">
-            <caret line="77" selection-start-line="77" selection-end-line="77" />
           </first_editor>
           <second_editor />
         </state>
@@ -516,16 +331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Domain/Model/Video/VideoTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding>
-            <element signature="e#44#75#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Application/Import/Validation/ValidatorInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -567,16 +372,6 @@
           <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
           <folding>
             <element signature="e#60#99#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Infrastructure/Validation/MemoryProviderRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-          <folding>
-            <element signature="e#51#109#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -695,16 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application/Import/Command/ImporterCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="66" column="28" lean-forward="true" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
-          <folding>
-            <element signature="e#50#101#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Domain/Model/Video/VideoRepositoryInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -722,26 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Infrastructure/Service/Source/FlubSource.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="e#53#96#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Infrastructure/Service/Source/GlorfSource.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="857">
-          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
-          <folding>
-            <element signature="e#54#87#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Infrastructure/Service/Source/SourceInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -749,12 +514,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Infrastructure/Service/Source/FlubSource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#53#96#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/Import/Command/ImporterCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="66" column="28" lean-forward="true" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+          <folding>
+            <element signature="e#50#101#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="628">
+            <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Domain/Model/Video/VideoTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#44#75#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Infrastructure/Validation/MemoryProviderRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#51#109#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Application/Import/Service/ImporterService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="82" column="149" selection-start-line="82" selection-start-column="149" selection-end-line="82" selection-end-column="149" />
+        <state relative-caret-position="648">
+          <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
           <folding>
             <element signature="e#50#107#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Infrastructure/Service/Source/GlorfSource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="41" />
+          <folding>
+            <element signature="e#54#87#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SUMMARY">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Infrastructure/Service/Source/GlorfSourceTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#56#99#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

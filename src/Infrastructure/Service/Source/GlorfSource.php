@@ -34,7 +34,6 @@ class GlorfSource implements SourceInterface
         //@TODO used to inject the infrastructure to request the videos: ftp, http, etc.
 
         $this->dirFeedExports;
-        $this->videoCollection = new VideoCollection();
     }
 
     /**
@@ -43,13 +42,13 @@ class GlorfSource implements SourceInterface
     public function getCollectionToImport(): VideoCollection
     {
         $this->getRawSourceData();
+        $this->videoCollection = new VideoCollection();
 
         foreach ($this->rawData->videos as $videoPayload) {
 
             //@TODO Perform different validations
 
             //@TODO If validation fails register in a log file
-
 
             //@TODO Include a Uuid generator
             $id = rand(1, 1000);
